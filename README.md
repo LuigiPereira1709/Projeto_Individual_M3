@@ -7,13 +7,13 @@ Este repositório contém o código fonte e scripts para criar e alimentar um ba
 - **scripts/:**
   - **database_scripts/:** Contém scripts SQL para criar o banco de dados e tabelas.
   - **data_generation_scripts/:** Script Python para gerar dados fictícios.
-- **dados/:** Armazena dados utilizados pelo sistema.
-  - **gerados/:** Pasta para arquivos CSV gerados pelo script de geração de dados.
+- **data/:** Armazena dados utilizados pelo sistema.
+  - **generated_data/:** Pasta para arquivos CSV gerados pelo script de geração de dados.
   - **tecnologias.json:** JSON com informações sobre as tecnologias utilizadas.
   - **cargos.json:** JSON com informações sobre cargos e funções.
   - **modelos/:** Contém modelos conceitual e lógico do banco de dados.
 - **documentacao/:** Contém documentação sobre o projeto.
-- **Rrequirements.txt:** Lista de requisitos do projeto.
+- **requirements.txt:** Lista de requisitos do projeto.
 - **README.md:** Este arquivo, fornecendo informações gerais sobre o projeto e instruções de uso.
 
 ## Como Usar
@@ -25,7 +25,7 @@ Este repositório contém o código fonte e scripts para criar e alimentar um ba
 ### Geração de Dados Fictícios:
 
 1. Utilize o script Python em `scripts/data_generation_scripts/generate_data.py` para gerar dados fictícios de empresas, colaboradores e tecnologias.
-2. Os dados gerados serão armazenados na pasta `dados/gerados/`.
+2. Os dados gerados serão armazenados na pasta `data/generated_data/`.
 
 ### Povoar o Banco de Dados:
 
@@ -44,29 +44,29 @@ Veja abaixo os modelos conceitual e lógico que representam a estrutura do banco
 
 ### Empresas:
 
-Consulte `dados/gerados/data_empresas.csv`.
+Consulte `data/generated_data/data_empresas.csv`.
 
 ### Colaboradores:
 
-Consulte `dados/gerados/data_colaboradores.csv`.
+Consulte `data/generated_data/data_colaboradores.csv`.
 
 ### Tecnologias:
 
-Consulte `dados/gerados/data_tecnologias.csv`.
+Consulte `data/generated_data/data_tecnologias.csv`.
 
 ## Dados Auxiliares
 
 ### Tecnologias:
 
-Consulte `dados/tecnologias.json` para obter informações sobre as tecnologias.
+Consulte `data/tecnologias.json` para obter informações sobre as tecnologias.
 
 ### Cargos e Funções:
 
-Consulte `dados/cargos.json` para obter informações sobre os cargos e funções.
+Consulte `data/cargos.json` para obter informações sobre os cargos e funções.
 
 ## Requisitos do Projeto
 
-Os requisitos necessários para o projeto estão listados no arquivo `Rrequirements.txt`.
+Os requisitos necessários para o projeto estão listados no arquivo `requirements.txt`.
 
 ## Respostas aos Requisitos do Projeto
 
