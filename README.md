@@ -12,6 +12,7 @@ Este repositório contém o código fonte e scripts para criar e alimentar um ba
   - **tecnologias.json:** JSON com informações sobre as tecnologias utilizadas.
   - **cargos.json:** JSON com informações sobre cargos e funções.
 - **documentacao/:** Contém documentação sobre o projeto.
+- **modelos/:** Contém modelos conceitual e lógico do banco de dados.
 - **Rrequirements.txt:** Lista de requisitos do projeto.
 - **README.md:** Este arquivo, fornecendo informações gerais sobre o projeto e instruções de uso.
 
@@ -30,14 +31,13 @@ Este repositório contém o código fonte e scripts para criar e alimentar um ba
 
 1. Utilize o script `load_data` em `scripts/database_scripts/` para inserir os dados no banco de dados.
 
-## Modelo Conceitual e Lógico do Banco de Dados
+## Modelos do Banco de Dados
 
-Veja abaixo os modelos conceitual e lógico que representam a estrutura do banco de dados.
+- **Modelo Conceitual:**
+  ![Modelo Conceitual](./modelos/modelo_conceitual.png)
+- **Modelo Lógico:**
+  ![Modelo Lógico](./modelos/modelo_logico.png)
 
-- **Modelo Conceitual**
-![Modelo Conceitual](./modelos/modelo_conceitual.png)
-- **Modelo Lógico**
-![Modelo Logico](./modelos/modelo_logico.png)
 ## Dados de Exemplo
 
 ### Empresas:
@@ -65,8 +65,3 @@ Consulte `dados/cargos.json` para obter informações sobre os cargos e funçõe
 ## Requisitos do Projeto
 
 Os requisitos necessários para o projeto estão listados no arquivo `Rrequirements.txt`.
-
-## Contribuições
-
-Contribuições são bem-vindas! Sinta-se à vontade para sugerir melhorias, correções ou novos recursos através de issues ou pull requests.
-
