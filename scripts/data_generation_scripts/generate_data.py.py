@@ -81,6 +81,7 @@ df_colaboradores = gerador.colaboradores(quantidade_colaboradores)
 df_empresas = gerador.empresas(quantidade_empresas)
 df_tecnologias = gerador.tecnologias(quantidade_tecnologias)
 
+#Path para a pasta data
 caminho = './data/'
 
 # Salva os DataFrames em arquivos CSV usando o prefixo fornecido
