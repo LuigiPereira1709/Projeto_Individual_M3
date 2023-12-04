@@ -20,7 +20,7 @@ Este repositório contém o código fonte e scripts para criar e alimentar um ba
 
 ### Configuração do Banco de Dados:
 
-1. Execute o script `create_database` em `scripts/database_scripts/` para criar o banco de dados e as tabelas necessárias.
+1. Execute no [MySQL Workbench](https://www.mysql.com/products/workbench/) o script `create_database` em `scripts/database_scripts/` para criar o banco de dados e as tabelas necessárias.
 
 ### Gerar Dados Fictícios com o Código Python:
 
@@ -33,7 +33,7 @@ Os arquivos CSV serão salvos na pasta `data/generated_data/` com os nomes `<pre
 
 ### Povoar o Banco de Dados:
 
-1. Utilize o script `load_data` em `scripts/database_scripts/` para inserir os dados no banco de dados.
+1. Utilize no [MySQL Workbench](https://www.mysql.com/products/workbench/) o script `load_data` em `scripts/database_scripts/` para inserir os dados no banco de dados.
 
 ## Modelo Conceitual e Lógico do Banco de Dados
 
@@ -67,6 +67,12 @@ Consulte `data/tecnologias.json` para obter informações sobre as tecnologias.
 ### Cargos e Funções:
 
 Consulte `data/cargos.json` para obter informações sobre os cargos e funções.
+
+## Programas Utilizados
+
+- [MySQL Workbench 8.0 CE](https://www.mysql.com/products/workbench/)
+- [XAMPP](https://www.apachefriends.org/index.html)
+- [Python 3.12](https://www.python.org/downloads/release/python-312/)
 
 ## Requisitos do Projeto
 
