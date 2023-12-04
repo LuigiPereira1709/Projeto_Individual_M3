@@ -35,6 +35,7 @@ Este repositório contém o código fonte e scripts para criar e alimentar um ba
 Veja abaixo os modelos conceitual e lógico que representam a estrutura do banco de dados.
 
 - **Modelo Conceitual**
+./modelo/'modelo_conceitual.png'
 - **Modelo Lógico**
 
 ## Dados de Exemplo
