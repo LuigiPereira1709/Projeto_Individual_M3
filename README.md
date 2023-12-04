@@ -37,7 +37,7 @@ Veja abaixo os modelos conceitual e lógico que representam a estrutura do banco
 - **Modelo Conceitual**
 ![Modelo Conceitual](./modelos/modelo_conceitual.png)
 - **Modelo Lógico**
-![Modelo Logico](./modelo/modelo_logico.png)
+![Modelo Logico](./modelos/modelo_logico.png)
 ## Dados de Exemplo
 
 ### Empresas:
