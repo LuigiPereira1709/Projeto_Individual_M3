@@ -7,8 +7,8 @@ Este repositório contém o código fonte e scripts para criar e alimentar um ba
 - **scripts/:**
   - **database_scripts/:** Contém scripts SQL para criar o banco de dados e tabelas.
   - **data_generation_scripts/:** Script Python para gerar dados fictícios.
-- **data/:** Armazena dados utilizados pelo sistema.
-  - **generated_data/:** Pasta para arquivos CSV gerados pelo script de geração de dados.
+  - **data/:** Pasta para arquivos CSV gerados pelo script de geração de dados.
+- **files/:** Armazena dados utilizados pelo sistema.
   - **tecnologias.json:** JSON com informações sobre as tecnologias utilizadas.
   - **cargos.json:** JSON com informações sobre cargos e funções.
   - **modelos/:** Contém modelos conceitual e lógico do banco de dados.
