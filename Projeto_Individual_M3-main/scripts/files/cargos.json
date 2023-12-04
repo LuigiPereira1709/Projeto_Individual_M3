@@ -1,0 +1,24 @@
+{
+    "cargos": {
+    "webdev": {
+        "front-end-developer": "Desenvolvedor Front-End",
+        "back-end-developer": "Desenvolvedor Back-End",
+        "full-stack-developer": "Desenvolvedor Full Stack",
+        "ui-ux-designer": "Designer UI/UX",
+        "devops-engineer": "Engenheiro DevOps"
+    },
+    "dados": {
+        "data-scientist": "Cientista de Dados",
+        "data-engineer": "Engenheiro de Dados",
+        "database-administrator": "Administrador de Banco de Dados",
+        "business-analyst": "Analista de Negócios"
+    },
+    "marketing": {
+        "marketing-manager": "Gerente de Marketing",
+        "digital-marketing-specialist": "Especialista em Marketing Digital",
+        "seo-specialist": "Especialista em SEO",
+        "data-analyst": "Analista de Dados de Marketing",
+        "social-media-manager": "Gerente de Mídias Sociais"
+    }
+    }
+}

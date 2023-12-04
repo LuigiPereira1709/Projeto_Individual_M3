@@ -1,0 +1,87 @@
+{
+  "tecnologias": {
+    "webdev": {
+      "front-end": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "React",
+        "Vue.js"
+      ],
+      "back-end": [
+        "Node.js",
+        "Express",
+        "Django",
+        "Ruby on Rails"
+      ],
+      "gerenciamento-de-estado": [
+        "Redux",
+        "Vuex"
+      ],
+      "bancos-de-dados": [
+        "MongoDB",
+        "MySQL",
+        "PostgreSQL"
+      ],
+      "ferramentas-de-build": [
+        "Webpack",
+        "Babel"
+      ]
+    },
+    "dados": {
+      "armazenamento": [
+        "Hadoop",
+        "Amazon S3",
+        "Google Cloud Storage"
+      ],
+      "processamento": [
+        "Apache Spark",
+        "Databricks",
+        "TensorFlow"
+      ],
+      "banco-de-dados": [
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Cassandra"
+      ],
+      "visualizacao": [
+        "Tableau",
+        "Power BI",
+        "Matplotlib"
+      ],
+      "linguagens": [
+        "Python",
+        "R",
+        "SQL"
+      ]
+    },
+    "marketing": {
+      "automacao-de-marketing": [
+        "HubSpot",
+        "Mailchimp",
+        "Marketo"
+      ],
+      "analise-de-dados": [
+        "Google Analytics",
+        "Adobe Analytics",
+        "Mixpanel"
+      ],
+      "SEO": [
+        "Moz",
+        "Ahrefs",
+        "Semrush"
+      ],
+      "publicidade-online": [
+        "Google Ads",
+        "Facebook Ads",
+        "LinkedIn Ads"
+      ],
+      "redes-sociais": [
+        "Hootsuite",
+        "Buffer",
+        "Sprout Social"
+      ]
+    }
+  }
+}
