@@ -1,4 +1,4 @@
-USE RESILIADATA
+USE RESILIADATA;
 
 -- Carrega dados de empresas a partir do arquivo CSV
 LOAD DATA INFILE 'data_empresas.csv'
