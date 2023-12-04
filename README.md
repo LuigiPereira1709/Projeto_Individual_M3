@@ -22,15 +22,6 @@ Este repositório contém o código fonte e scripts para criar e alimentar um ba
 
 1. Execute o script `create_database` em `scripts/database_scripts/` para criar o banco de dados e as tabelas necessárias.
 
-### Geração de Dados Fictícios:
-
-1. Utilize o script Python em `scripts/data_generation_scripts/generate_data.py` para gerar dados fictícios de empresas, colaboradores e tecnologias.
-2. Os dados gerados serão armazenados na pasta `data/generated_data/`.
-
-### Povoar o Banco de Dados:
-
-1. Utilize o script `load_data` em `scripts/database_scripts/` para inserir os dados no banco de dados.
-
 ### Gerar Dados Fictícios com o Código Python:
 
 1. Abra o terminal na pasta do projeto.
@@ -39,6 +30,10 @@ Este repositório contém o código fonte e scripts para criar e alimentar um ba
 4. Forneça um prefixo para os nomes dos arquivos CSV gerados.
 
 Os arquivos CSV serão salvos na pasta `data/generated_data/` com os nomes `<prefixo>_empresas.csv`, `<prefixo>_colaboradores.csv` e `<prefixo>_tecnologias.csv`.
+
+### Povoar o Banco de Dados:
+
+1. Utilize o script `load_data` em `scripts/database_scripts/` para inserir os dados no banco de dados.
 
 ## Modelo Conceitual e Lógico do Banco de Dados
 
