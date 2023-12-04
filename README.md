@@ -80,4 +80,4 @@ Os requisitos necessários para o projeto estão listados no arquivo `requiremen
 
 ## Respostas aos Requisitos do Projeto
 
-Consulte o arquivo `respostas.txt` para obter respostas às perguntas e requisitos específicos do projeto.
+Consulte o arquivo `respostas.md` para obter respostas às perguntas e requisitos específicos do projeto.
