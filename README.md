@@ -82,4 +82,4 @@ Os requisitos necessários para o projeto estão listados no arquivo `requiremen
 Consulte o arquivo `respostas.md` para obter respostas às perguntas e requisitos específicos do projeto.
 
 ## Autor
-- Luigi Pereira
+Luigi Pereira
