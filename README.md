@@ -7,12 +7,11 @@ Este repositório contém o código fonte e scripts para criar e alimentar um ba
 - **scripts/:**
   - **database_scripts/:** Contém scripts SQL para criar o banco de dados e tabelas.
   - **data_generation_scripts/:** Script Python para gerar dados fictícios.
-  - **data/:** Pasta para arquivos CSV gerados pelo script de geração de dados.
-- **files/:** Armazena dados utilizados pelo sistema.
-  - **tecnologias.json:** JSON com informações sobre as tecnologias utilizadas.
-  - **cargos.json:** JSON com informações sobre cargos e funções.
-  - **modelos/:** Contém modelos conceitual e lógico do banco de dados.
-- **documentacao/:** Contém documentação sobre o projeto.
+  - **files/:** Armazena dados utilizados pelo sistema.
+    - **tecnologias.json:** JSON com informações sobre as tecnologias utilizadas.
+    - **cargos.json:** JSON com informações sobre cargos e funções.
+- **data/:** Pasta para arquivos CSV gerados pelo script de geração de dados.
+- **modelos/:** Contém modelos conceitual e lógico do banco de dados.
 - **requirements.txt:** Lista de requisitos do projeto.
 - **README.md:** Este arquivo, fornecendo informações gerais sobre o projeto e instruções de uso.
 
@@ -29,7 +28,7 @@ Este repositório contém o código fonte e scripts para criar e alimentar um ba
 3. Siga as instruções para inserir a quantidade desejada de dados para empresas, colaboradores e tecnologias.
 4. Forneça um prefixo para os nomes dos arquivos CSV gerados.
 
-Os arquivos CSV serão salvos na pasta `data/generated_data/` com os nomes `<prefixo>_empresas.csv`, `<prefixo>_colaboradores.csv` e `<prefixo>_tecnologias.csv`.
+Os arquivos CSV serão salvos na pasta `data/` com os nomes `<prefixo>_empresas.csv`, `<prefixo>_colaboradores.csv` e `<prefixo>_tecnologias.csv`.
 
 ### Povoar o Banco de Dados:
 
@@ -48,25 +47,25 @@ Veja abaixo os modelos conceitual e lógico que representam a estrutura do banco
 
 ### Empresas:
 
-Consulte `data/generated_data/data_empresas.csv`.
+Consulte `data/data_empresas.csv`.
 
 ### Colaboradores:
 
-Consulte `data/generated_data/data_colaboradores.csv`.
+Consulte `data/data_colaboradores.csv`.
 
 ### Tecnologias:
 
-Consulte `data/generated_data/data_tecnologias.csv`.
+Consulte `data/data_tecnologias.csv`.
 
 ## Dados Auxiliares
 
 ### Tecnologias:
 
-Consulte `data/tecnologias.json` para obter informações sobre as tecnologias.
+Consulte `scripts/files/tecnologias.json` para obter informações sobre as tecnologias.
 
 ### Cargos e Funções:
 
-Consulte `data/cargos.json` para obter informações sobre os cargos e funções.
+Consulte `scripts/files/cargos.json` para obter informações sobre os cargos e funções.
 
 ## Programas Utilizados
 
